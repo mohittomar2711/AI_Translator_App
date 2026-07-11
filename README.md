@@ -17,7 +17,7 @@ AI Language Translator is a python based web application developed using Streaml
  * LangDetect
 
 # PROJECT STRUCTURE
-AI_Translator_Project/
+AI_Translator_Project/<br>
 |___app.py <br>
 |__history.txt<br>
 |__requirements.txt<br>

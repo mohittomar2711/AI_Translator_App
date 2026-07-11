@@ -141,7 +141,20 @@ code_to_language = {
    "zh-cn":"Chinese"
 
 }
-
+# -----------------------------
+# Save Translation History
+# -----------------------------
+def save_history(original, detected, target, translated):
+    with open("history.txt", "a", encoding="utf-8") as file:
+        file.write(
+            f"""
+Original Text: {original}
+Detected Language: {detected}
+Target Language: {target}
+Translated Text: {translated}
+----------------------------------------
+"""
+        )
 col1 , col2 = st.columns(2)
 with col1:
     source = st.selectbox("Source Language", list(languages.keys()))
@@ -206,7 +219,7 @@ if os.path.exists("history.txt"):
        st.text_area(
           "Previous translation",
           history,
-          heught=300
+          height=300
        )
    else:
       
@@ -215,3 +228,4 @@ if os.path.exists("history.txt"):
 else:
    
    st.info("No history available.")
+

@@ -1,0 +1,24 @@
+
+Original Text: hello
+Detected Language: fi
+Target Language: Hindi
+Translated Text: नमस्ते
+----------------------------------------
+
+Original Text: hello
+Detected Language: fi
+Target Language: Hindi
+Translated Text: नमस्ते
+----------------------------------------
+
+Original Text: hello  my name is mohit
+Detected Language: English
+Target Language: Hindi
+Translated Text: हेलो मेरा नाम मोहित है
+----------------------------------------
+
+Original Text: hello how are you doing
+Detected Language: English
+Target Language: Hindi
+Translated Text: नमस्ते, आप कैसे हैं
+----------------------------------------
